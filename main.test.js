@@ -4,7 +4,54 @@
 
 
 
+// Create a function named returnWhatISay that will take a string sentence and returns that sentence unchanged.
 
+// Create a function named sayHi that will take one parameter and return a personalized greeting like these examples:
+
+// INPUT: sayHi("Charlotte");
+
+// OUTPUT: "Hello Charlotte!";
+
+// INPUT: sayHi("Colin");
+
+// OUTPUT: "Hello Colin!";
+
+// Create a function named divide that will take two parameters and return the result of dividing the first by the second.
+
+// Create a function named remainder that takes two parameters and return the remainder that we get when those two numbers get divided.
+
+
+let greeting = 'Hello';
+let sum = 0;
+let prod = 0;
+
+function greet(polite) {
+  greeting = greeting + " " + polite;
+}
+
+function sumOfTwo(sum1, sum2) {
+  sum = (sum1) + (sum2);
+}
+
+function multiply(prod1, prod2, prod3) {
+  prod = (prod1) * (prod2) * (prod3);
+}
+
+function returnWhatISay(sentence) {
+  return sentence;
+}
+
+function sayHi(param1) {
+  return "Hello " + (param1) + "!";
+}
+
+function divide(a, b) {
+  return a / b;
+}
+
+function remainder(c, d) {
+  return c % d;
+}
 
 /*********************************************************************************************************************
 
